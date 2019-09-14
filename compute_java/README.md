@@ -10,6 +10,8 @@ You can access the deployed application at [http://35.225.178.248:8080/random/he
         
         git clone https://github.com/noahzemlin/SE-50-Shades-Project-1/edit/compute
 
-1.  In the compute_java directory, run the command: ```jar cvf random.war .``` to create a war file.
+1.  In the compute_java directory, run the command: 
+        ```jar cvf random.war .``` 
+    to create a war file.
 
 1.  Deploy the war file via the Tomcat Manager page.
