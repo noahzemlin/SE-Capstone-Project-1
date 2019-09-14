@@ -2,9 +2,29 @@
 
 You can access the deployed application at [http://softwaredevproject1python.appspot.com/](http://softwaredevproject1python.appspot.com/).
 
-The following steps explain how you could make this app yourself. This app followed the google cloud AppEngine tutorial exactly and simply changed the "hello world" to a random number.
+We made these instructions in two steps. If you want to clone this directory into an appEngine and run it, that's part 1. Using the high-quality hello world tutorial and changing the code slightly might be even easier, and that's part two.
 
-## Before you begin
+## 1: Using our sourcecode
+
+### Prerequisites:
+
+You need to have set up an appEngine project. You can follow the first two steps of part 2's Before you begin to see how to do this.
+
+Our app engine came with everything we needed installed, so make sure you follow the tutorial's set up for creating the app engine.
+
+### Running the code
+
+cd into the given hello_world directory and run the following:
+
+        virtualenv --python python3 ~/envs/hello_world
+        source ~/envs/hello_world/bin/activate
+        pip install -r requirements.txt
+        gcloud app create
+        gcloud app deploy app.yaml --project {yourProject}
+
+## 2: Making this app yourself
+
+### Before you begin
 
 1. [Create a new Google Cloud Platform project, or use an existing one](https://console.cloud.google.com/project).
 
@@ -12,7 +32,7 @@ The following steps explain how you could make this app yourself. This app follo
 
 1. Now follow the [tutorial](https://codelabs.developers.google.com/codelabs/cloud-app-engine-python/index.html?index=..%2F..index) to get a Hello World project set up in python.
 
-## Modifying the example project to show a random number
+### Modifying the example project to show a random number
 
 1. This is a much more simple step than in Java, since instead of changing the index.html, we just need to change the main method. I have provided my project folder in a directory called "hello_world" for you to reference. I also left my "$(history)" in a file called history for you to reference should you need it.
 
