@@ -41,3 +41,5 @@ Otherwise, you'll need to both create and deploy
 
         gcloud app create
         gcloud app deploy app.yaml --project {projectName}
+
+I left a picture of the feedback you should get on successful deployment. This is where your link should be!
