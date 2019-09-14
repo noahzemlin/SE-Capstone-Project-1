@@ -2,9 +2,7 @@
 
 You can access the deployed application at [http://35.225.178.248:8080/random/hello.jsp](http://35.225.178.248:8080/random/hello.jsp).
 
-The Folloing steps explain how you can deploy this app yourself.
-
-## Before you begin
+## The Folloing steps explain how you can deploy this app yourself.
 
 1.  [Install and configure Apache Tomcat](http://tomcat.apache.org/).
 
