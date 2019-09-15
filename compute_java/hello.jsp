@@ -36,7 +36,7 @@ application.
      
     <%
         Random random = new Random();
-        out.println("Random: " + (random.nextInt(1000000) + 1));
+        out.println((random.nextInt(1000000) + 1));
     %>
  
 </body>
