@@ -1,0 +1,88 @@
+    1  git clone https://github.com/GoogleCloudPlatform/python-docs-samples
+    2  ls
+    3  cd python-docs-samples/appengine/
+    4  ls
+    5  cd python-docs-samples/appengine/standard_python37/hello_world
+    6  cd standard_python37/hello_world/
+    7  cat main.py
+    8  cat app.yaml
+    9  virtualenv --python python3 ~/envs/hello_world
+   10  source ~/envs/hello_world/bin/activate
+   11  cat requirements.txt
+   12  pip install -r requirements.txt
+   13  python main.py
+   14  gcloud app create
+   15  gcloud app deploy app.yaml --project softwaredevproject1python
+   16  ls
+   17  cat main.py
+   18  nano main.py
+   19  ls
+   20  cat requirements.txt
+   21  virtualenv --python python3 ~/envs/random_num
+   22  source ~/envs/random_num/bin/activate
+   23  pip install -r requirements.txt
+   24  python main.py
+   25  nano main.py
+   26  python main.py
+   27  nano maiain.py
+   28  ls
+   29  nano main.py
+   30  python main.py
+   31  nano main.py
+   32  python main.py
+   33  gcloud app create
+   34  man gcloud app
+   35  gcloud app create
+   36  cat app.yaml
+   37  gcloud app deploy app.yaml --project softwaredevproject1python
+   38  ls
+   39  cd python-docs-samples/
+   40  ls
+   41  cd ..
+   42  cd envs/
+   43  ls
+   44  cd random_num/
+   45  ls
+   46  cd bin
+   47  ls
+   48  history
+   49  cd ~
+   50  cd python-docs-samples/appengine/standard_python37
+   51  ls
+   52  cd hello_world/
+   53  ls
+   54  cat main.py
+   55  nano main.py
+   56  cd ..
+   57  ls
+   58  mkdir githubRepo
+   59  cd githubRepo/
+   60  git init
+   61  git remote add origin https://github.com/noahzemlin/SE-50-Shades-Project-1
+   62  git pull origin master:master
+   63  ls
+   64  cd ..
+   65  cp -r hello_world/ githubRepo/app_python/hello_world/
+   66  ls githubRepo/app_python/
+   67  cd githubRepo/app_python/
+   68  touch history
+   69  cat ($history) >> history
+   70  cat $(history) >> history
+   71  echo $(history) >> history
+   72  cat history
+   73  history
+   74  cd ../..
+   75  ls
+   76  cd githubRepo/
+   77  git add .
+   78  git commit -m "added files from vm"
+   79  git config --global user.email "jakedcrampton@gmail.com"
+   80  git config --global user.name "jakedcrampton"
+   81  git commit -m "added files from vm"
+   82  git push -u origin master
+   83  ls
+   84  git pull
+   85  cd app_python/
+   86  ls
+   87  history
+   88  echo "$(history)" >> history
