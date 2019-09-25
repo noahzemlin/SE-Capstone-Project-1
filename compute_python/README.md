@@ -1,6 +1,6 @@
 # compute_python
 
-See it running at http://34.67.187.36/
+See it running at http://34.84.95.192/
 
 ## Install
 
@@ -9,10 +9,10 @@ Create a new GCP Compute Engine Virtual Machine. Select an image that uses `apt`
 Run the following commands in your vm's console to run the project
 
 ```bash
-sudo apt install python3 python3-pip
+sudo apt install python3 python3-pip git
 git clone https://github.com/noahzemlin/SE-50-Shades-Project-1.git
 cd SE-50-Shades-Project-1/compute_python/
-sudo python3 -m pip install -r requirements.txt
+sudo python3 -m pip install flask
 ```
 
 ## Run
